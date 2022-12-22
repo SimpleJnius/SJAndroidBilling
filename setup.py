@@ -2,14 +2,14 @@
 from setuptools import setup
 
 packages = \
-['sjbilling']
+    ['sjbilling']
 
 package_data = \
-{'': ['*']}
+    {'': ['*']}
 
 install_requires = \
-['kvdroid @ https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip',
- 'pyjnius>=1.4.2,<2.0.0']
+    ['kvdroid @ https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip',
+     'pyjnius>=1.4.2,<2.0.0']
 
 setup_kwargs = {
     'name': 'sjbilling',
@@ -27,6 +27,4 @@ setup_kwargs = {
     'python_requires': '>=3.7,<4.0',
 }
 
-
 setup(**setup_kwargs)
-
