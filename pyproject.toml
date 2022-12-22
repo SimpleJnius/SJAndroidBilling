@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "sjandroidbilling"
+name = "sjbilling"
 version = "2022.1.0"
 description = "port google play billing (android) to python"
-authors = ["kengoon <kengoon19@gmail.com>"]
+authors = ["Kenechukwu Akubue <kengoon19@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
@@ -11,6 +11,8 @@ python = "^3.7"
 pyjnius = "^1.4.2"
 kvdroid = {url = "https://github.com/kvdroid/Kvdroid/archive/refs/heads/master.zip"}
 
+
+[tool.poetry.group.dev.dependencies]
 
 [build-system]
 requires = ["poetry-core"]
