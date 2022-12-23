@@ -7,7 +7,7 @@ from kvdroid.jclass import _class_call
 
 
 class SJGooglePlayBilling(JavaClass, metaclass=MetaJavaClass):
-    _javaclass__ = 'com/sj/sjgoogleplaybilling/SJGooglePlayBilling'
+    __javaclass__ = 'com/sj/sjgoogleplaybilling/SJGooglePlayBilling'
 
     makePayment = JavaMethod(
         "(Landroid/content/Context;Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)Lcom/android"
